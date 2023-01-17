@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.posyandu.chrisnaputra.posyandu.UbahKader">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/user" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="150dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Telpon"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="150dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:textColorHint="#000"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="140dp"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textColorHint="#000"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:layout_marginLeft="120dp"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#000"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:layout_marginLeft="120dp"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="No Telpon"
+            android:textColorHint="#000"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:layout_marginLeft="120dp"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:textColorHint="#000"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:layout_marginLeft="120dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="Submit"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:layout_marginLeft="96dp"
+            android:layout_marginTop="400dp"
+            />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="Cancel"
+            android:background="#A9A9A9"
+            android:textColor="#fff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="400dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

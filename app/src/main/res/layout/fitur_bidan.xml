@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FiturBidan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Silahkan Memilih Fitur Untuk Pengoperasian Sistem"
+            android:textAlignment="center"
+            android:textColor="#FF000000"
+            android:textSize="7pt"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/laporan"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:id="@+id/kelola_Laporan"
+                android:onClick="kelolaLaporan"
+                />
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/kks"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:layout_marginLeft="70dp"
+                android:id="@+id/kelola_Kks"
+                android:onClick="kelolaKks"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelola Laporan"
+                android:textColor="#FF000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelola KKS"
+                android:textColor="#FF000000"
+                android:layout_marginLeft="70dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
